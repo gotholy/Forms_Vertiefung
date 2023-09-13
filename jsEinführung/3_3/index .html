@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="wrapper">
+    <form id="myColor">
+      <label for="red">RED</label>
+      <input
+        type="range"
+        name="red"
+        id="red"
+        min="0"
+        max="255"
+        value="rgb(255,5,5)"
+        step="5"
+        onchange="changeBackground()"
+      />
+      <label for="green">GREEN</label>
+      <input
+        type="range"
+        name="green"
+        id="green"
+        min="0"
+        max="245"
+        value="rgb(5,245,45)"
+        step="5"
+        onchange="changeBackground()"
+      />
+      <label for="blue">BLUE</label>
+      <input
+        type="range"
+        name="blue"
+        id="blue"
+        min="0"
+        max="245"
+        value="rgb(5,5,245)"
+        step="5"
+        onchange="changeBackground()"
+      />
+    </form>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

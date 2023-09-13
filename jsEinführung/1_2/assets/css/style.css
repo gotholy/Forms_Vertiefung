@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20vw 0 auto;
+  height: 100vh;
+}
+form {
+  width: 20vw;
+  margin-left: 40vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  border: 1px solid black;
+}

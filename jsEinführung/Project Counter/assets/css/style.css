@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 25vh;
+  text-align: center;
+  align-items: center;
+  margin: 20vh 40vw;
+  background: linear-gradient(
+    45deg,
+    rgba(104, 171, 219, 1) 24%,
+    rgba(226, 134, 226, 1) 48%,
+    rgba(140, 117, 252, 1) 100%
+  );
+
+  border: 2px solid black;
+  padding-bottom: 2vh;
+}
+section input {
+  text-align: center;
+  width: 7vw;
+}

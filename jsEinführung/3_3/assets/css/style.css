@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+form {
+  width: 40vw;
+  margin-top: 5vw;
+  margin-left: 25vw;
+  padding: 2vh 5vw;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
